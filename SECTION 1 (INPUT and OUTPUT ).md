@@ -15,7 +15,7 @@
                }
             }
 
-**Area of Triangle**
+**2).Area of Triangle**
             
         import java.io.*;
         import java.util.Scanner;
@@ -37,7 +37,7 @@
            }
         }
 
-**Cost of shipping**
+**3).Cost of shipping**
 
         import java.io.*;
                 import java.util.Scanner;
@@ -66,3 +66,38 @@
             }
         }
 	
+**4).Moons gravity**
+
+	 import java.io.*;
+	import java.util.Scanner;
+	public class TestClass {
+		 public static void main(String[] args)
+	     { 
+	       Scanner s=new Scanner(System.in);
+	       double weight=s.nextInt();
+	       double mw=(weight*(16.6))/100;
+	       System.out.println(mw);
+		}
+	}
+
+**5).Even or Odd**
+
+	 import java.io.*;
+	import java.util.Scanner;
+	public class TestClass {
+		 public static void main(String[] args) { 
+	       Scanner sc=new Scanner(System.in);
+	       int a=sc.nextInt();
+	       if(a%2==0)
+	       {
+		 System.out.print("Even");
+	       }
+	       else
+	       {
+		 System.out.print("Odd");
+	       }
+
+		}
+	}
+
+**6).
